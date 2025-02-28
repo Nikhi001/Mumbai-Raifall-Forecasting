@@ -16,12 +16,12 @@ This model will assist water authorities in making informed decisions regarding:
 #### Data examines
 This dataset total is based on a location in Mumbai and we see here these datasets are from 1901 to 2021 total is 121 years from 1901, with monthly and yearly precipitation patterns from 1901 to 2021 utilized for forecasting upcoming rain sessions of 2025 we lack some years  
 
- Precipitation data was analyzed by categorizing it into four seasons: 
-(1) Non-monsoon (January, February, March)
-(2) Pre-monsoon (April, May)
-(3) Southwest monsoon (June, July, August, September)
-(4) Northeast monsoon (October, November, and December) 
-then basic statistical analysis finds out the maximum and minimum rainfall, mean, standard deviation, skewness, and Kurtosis.
+ Precipitation data was analyzed by categorizing it into four seasons:    
+(1) Non-monsoon (January, February, March)   
+(2) Pre-monsoon (April, May)   
+(3) Southwest monsoon (June, July, August, September)  
+(4) Northeast monsoon (October, November, and December)    
+then basic statistical analysis finds out the maximum and minimum rainfall, mean, standard deviation, skewness, and Kurtosis.  
 
 #### Asking Questions(Ask)
 * What questions should we ask BMC and stakeholders to learn more about the dataset, its limitations, requirements, and results?   
