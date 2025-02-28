@@ -37,12 +37,17 @@ then basic statistical analysis finds out the maximum and minimum rainfall, mean
 
 ## Data Preprocessing(Prepare,Process,Analysis,Share)
 Data Cleaning & Preprocessing: Handling missing values, outliers, and feature engineering.  
-🔹 **Data Preprocessing:** Dectect outliers and treat them with  the help of IQR technique, Capping technique, checking Null value, duplicate values, Data relationship    
-🔹 **Exploratory Data Analysis (EDA):** Visualizing data patterns and insights using matplotlib, Seaborn, Plotly libarires.categorizing it into four season(Winter,Summar,Post-Monsoon,Monsoon) yearly rainfall classification.   
+🔹 **Data Preprocessing:** Dectect outliers and treat them with  the help of IQR technique, Capping technique, checking Null value, duplicate values, Data relationship.
+
+🔹 **Exploratory Data Analysis (EDA):** Visualizing data patterns and insights using matplotlib, Seaborn, Plotly libarires.categorizing it into four season(Winter,Summar,Post-Monsoon,Monsoon) yearly rainfall classification.
+
 🔹 **Feature Engineering:** Converts categorical text values into numerical labels for better analysis, visualization, and machine-learning compatibility use map() function. we use the Standard Scaling technique (Z-score normalization) to numerical features in the dataset.  
+
 🔹 **Model Building & Evaluation:** Implementing Machine Learning Regression Models(Linear Regression,Lasso,Ridge,Random Forest Regressor,Decision Tree Regressor,Gredaint Boosting Regressor,AdaBoost Regressor,XGB Regressor,). split Dataset into Train Test with 20% rate. Hyperparameter tuning  are using with models are (XGBoost Regressor,Gredaint Boosting, Decision Tree Regressor,Random Forest Regressor). Based on the observed issues with the XGBoost hyperparameter model trained and the strong performance of Ridge Regression, Ridge Regression is the best model for this dataset. Based on the observed issues with the XGBoost hyperparameter model trained and the strong performance of Ridge Regression, Ridge Regression is the best model for this dataset.with overffiting problem.
 
+
 🔹 **Snap Technique:** The SHAP plot now highlights the strong influence of the monsoon season and the dry season on the model's output. The insights are consistent with Mumbai's tropical monsoon climate and the significant impact of rainfall and humidity on the predicted variable. 
+
 
 🔹 **Deployment:** Deploying the model using Streamlit  for real-world applications.But Facing issues and error of requirements.txt file.
 
