@@ -50,12 +50,7 @@ Data Cleaning & Preprocessing: Handling missing values, outliers, and feature en
 
 Based on the insights from both analyses:
 
-✅ XGBoost & Gradient Boosting Regressor achieved the highest R² scores (~0.89+), indicating strong predictive capabilities and generalization across the dataset.  
-✅ Random Forest also performed well (~0.75) and can be considered a reliable alternative.  
-
-⚠️ Linear Regression & Ridge Regression are stable baseline models but might not capture complex relationships in the data.  
-❌ Decision Tree & KNN overfit heavily and are not suitable without proper tuning.  
-❌ Lasso Regression performed the worst and is not recommended for this dataset.  
+Based on the observed issues with the XGBoost hyperparameter model trained and the strong performance of Ridge Regression, Ridge Regression is the best model for this dataset.  
 
 ## **Acknowledgments**  
 
