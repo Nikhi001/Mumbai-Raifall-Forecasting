@@ -103,12 +103,6 @@ if uploaded_file is not None:
         shap.summary_plot(shap_values, X_test, show=False)
         st.pyplot(fig5)
 
-        #SHAP Force Plot (First Prediction)
-        st.write("### SHAP Force Plot (First Prediction)")
-        shap.initjs()
-        force_plot_html = shap.force_plot(explainer.expected_value, shap_values[0], X_test.iloc[0], matplotlib=True)
-        st.pyplot(force_plot_html)
-
 
         #  SHAP Decision Plot
         st.write("### SHAP Decision Plot")
