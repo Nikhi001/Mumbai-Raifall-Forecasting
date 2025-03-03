@@ -10,7 +10,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import Ridge
 from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 
-st.title("Ridge Regression with SHAP Interpretability")
+st.title("Regression Model Accuacry with SHAP Interpretability")
 st.write("Upload a dataset to visualize predictions and SHAP-based feature importance.")
 
 uploaded_file = st.file_uploader("Upload your CSV file", type=["csv"])
